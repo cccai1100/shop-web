@@ -11,8 +11,8 @@ public class WebServer {
         Server server = new Server(8080);
         WebAppContext context = new WebAppContext();
         context.setContextPath("/");
-        context.setDescriptor("./shop-web/src/main/webapp/WEB-INF/web.xml");
-        context.setResourceBase("./shop-web/src/main/webapp");
+        context.setDescriptor("./src/main/webapp/WEB-INF/web.xml");
+        context.setResourceBase("./src/main/webapp");
         //解决静态资源缓存后再ide里面不能修改问题
 //        context.setDefaultsDescriptor("./shop-web/src/test/resources/webdefault.xml");
         context.setParentLoaderPriority(true);

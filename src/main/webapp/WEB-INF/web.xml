@@ -3,7 +3,7 @@
          xmlns="http://xmlns.jcp.org/xml/ns/javaee"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          id="WebApp_ID" version="3.1">
-    <display-name>redis</display-name>
+    <display-name>shop-web</display-name>
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
     </welcome-file-list>
@@ -14,7 +14,7 @@
     <!-- 读取spring的配置文件 -->
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>classpath:spring/spring-config.xml;classpath:mybatis/mybatis-config.xml</param-value>
+        <param-value>classpath:spring/spring-config.xml</param-value>
     </context-param>
 
     <listener>
