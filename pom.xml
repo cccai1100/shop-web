@@ -29,6 +29,24 @@
             <artifactId>spring-webmvc</artifactId>
             <version>4.2.5.RELEASE</version>
         </dependency>
+
+        <!-- shiro -->
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-core</artifactId>
+            <version>1.2.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-web</artifactId>
+            <version>1.2.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-spring</artifactId>
+            <version>1.2.4</version>
+        </dependency>
+
         <!-- redis start -->
         <dependency>
             <groupId>org.springframework.data</groupId>
@@ -46,6 +64,7 @@
             <artifactId>slf4j-log4j12</artifactId>
             <version>1.7.12</version>
         </dependency>
+
         <!-- Jetty -->
         <dependency>
             <groupId>org.eclipse.jetty.aggregate</groupId>
@@ -53,6 +72,7 @@
             <version>8.1.16.v20140903</version>
             <scope>test</scope>
         </dependency>
+
         <!-- Jetty Webapp -->
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
@@ -86,6 +106,8 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
+        <!-- dubbo -->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo</artifactId>
@@ -97,6 +119,8 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
+        <!-- zk -->
         <dependency>
             <groupId>com.101tec</groupId>
             <artifactId>zkclient</artifactId>
